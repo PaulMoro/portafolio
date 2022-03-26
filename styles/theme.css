@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+  line-height: 22px;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Generals styles */
+.p__container{
+  padding: 3rem 0 3rem;
+}
+
+.p__space{
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.p__text--title{
+  font-size: 7rem;
+  font-family: 'fjalla One', sans-serif;
+  line-height: 0.5;
+}
+
+.p__text--subtitle{
+  font-size: 2rem;
+  font-family: 'lato', sans-serif;
+  line-height: 0.5;
+}
+
+.p__text--paragraph{
+  font-size: 1rem;
+  font-family: 'ubuntu', sans-serif;
+  line-height: 0.5;
+}
+
+.p__text--gray{
+  color: #A0A0A0;
+}
+.p__text--black{
+  color: #000;
+}
+.p__text--yellow{
+  color: #F3C62D;
+}
+.p__text--white{
+  color: #fefefe;
+}
+
+.p__decoration--yellow{
+  background-color: #F3CB2D;
+}
+.p__decoration--gray{
+  background-color: #F4F4F4;
+}
+.p__decoration--black{
+  background-color: #020202;
+}
+.p__decoration--white{
+  background-color: #FCFAFB;
+}
+
+.p__btn{
+  padding: ;
+  font-size: ;
+  appearance: ;
+  transition: all 0.6s ease;
+}
+.p__btn--black{
+  color: ;
+  background-color: ;
+}
+.p__btn--black:hover{
+  color: ;
+  background-color: ;
+}
+
+.p__input{
+  padding: ;
+  color: ;
+  box-shadow: 10px 5px 5px red;
+  appearance: ;
+  background: ;
+  border: none;
+} 
+
