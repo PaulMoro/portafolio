@@ -1,3 +1,5 @@
+@import url(color.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -40,52 +42,59 @@ html{
 }
 
 .p__text--gray{
-  color: #A0A0A0;
+  color: var(--gray-dark-color);
 }
 .p__text--black{
-  color: #000;
+  color: var(--black-color);
 }
 .p__text--yellow{
-  color: #F3C62D;
+  color: var(--yellow-color);
 }
 .p__text--white{
-  color: #fefefe;
+  color: var(--white-color);
 }
 
 .p__decoration--yellow{
-  background-color: #F3CB2D;
+  background-color: var(--yellow-color);
 }
 .p__decoration--gray{
-  background-color: #F4F4F4;
+  background-color: var(--gray-light-color);
 }
 .p__decoration--black{
-  background-color: #020202;
+  background-color: var( --black-color);
 }
 .p__decoration--white{
-  background-color: #FCFAFB;
+  background-color: var(--white-color);
 }
 
 .p__btn{
-  padding: ;
-  font-size: ;
-  appearance: ;
+  border: none;
+  padding: 0.75rem 1.125rem;
+  min-width: 8.75rem;
+  font-size: 1.2rem;
+  appearance: none;
   transition: all 0.6s ease;
+  outline: none;
 }
 .p__btn--black{
-  color: ;
-  background-color: ;
+  color: var(--white-color);
+  background-color: var(--black-color);
 }
 .p__btn--black:hover{
-  color: ;
-  background-color: ;
+  border: 2px solid var(--black-color);
+  color: var(--black-color);
+  background-color: var(--white-color);
 }
 
 .p__input{
-  padding: ;
-  color: ;
-  box-shadow: 10px 5px 5px red;
-  appearance: ;
-  background: ;
   border: none;
+  padding: 0.75rem;
+  color: var(--gray-dark-color);
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(97,97,97,0.5);
+  -moz-box-shadow: 5px 5px 20px 0px rgba(97,97,97,0.5);
+  box-shadow: 5px 5px 20px 0px rgba(97,97,97,0.5);
+  background: var(--white-color);
+  appearance: none;
+  outline: none;
 } 
 
