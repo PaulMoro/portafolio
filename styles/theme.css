@@ -20,7 +20,7 @@ html{
 
 .p__space{
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 920px;
 }
 
 .p__text--title{
@@ -98,3 +98,6 @@ html{
   outline: none;
 } 
 
+.p__transition{
+  transition: all 0.6s ease;
+}

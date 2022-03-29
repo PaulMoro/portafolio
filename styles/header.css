@@ -1,0 +1,46 @@
+.header{
+  border: red solid 1px;
+  height: 4rem;
+}
+
+.header__desktop{
+  padding: 1.125rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__desktop--left{
+
+}
+
+.header__desktop--right{
+  display: flex;
+  list-style: none;
+}
+
+.menu__link{
+  padding: 0 1rem;
+}
+
+.menu__link:first-of-type{
+  padding-left: 0;
+}
+
+.menu__link:last-of-type{
+  padding-right: 0;
+}
+
+.menu__link > .link{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.menu__link > .link:hover + .line{
+  width: 100%;
+}
+
+.menu__link > .line{
+  width: 0%;
+  height: 2px;
+  background-color: black;
+}
