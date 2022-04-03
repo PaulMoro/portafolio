@@ -53,6 +53,9 @@ html{
 .p__text--white{
   color: var(--white-color);
 }
+.p__text--bold{
+  font-weight: 800;
+}
 
 .p__decoration--yellow{
   background-color: var(--yellow-color);

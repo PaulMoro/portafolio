@@ -1,6 +1,5 @@
 .header{
   border: red solid 1px;
-  height: 4rem;
 }
 
 .header__desktop{
@@ -10,7 +9,29 @@
 }
 
 .header__desktop--left{
+  display: flex;
+  position: relative;
+}
 
+.header__desktop--left > .header__logo{
+  position: absolute;
+  height: 4rem;
+  margin: 0 0 0 -0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__desktop--left > .header__logo img{
+  height: 100%;
+}
+
+.header__desktop--left > .header__name{
+  padding: 0 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .header__desktop--right{
@@ -19,15 +40,16 @@
 }
 
 .menu__link{
-  padding: 0 1rem;
+  margin: 0 1rem;
+  position: relative;
 }
 
 .menu__link:first-of-type{
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .menu__link:last-of-type{
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .menu__link > .link{
@@ -42,5 +64,7 @@
 .menu__link > .line{
   width: 0%;
   height: 2px;
+  position: absolute;
+  bottom: 0px;
   background-color: black;
 }
