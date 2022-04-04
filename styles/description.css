@@ -1,0 +1,44 @@
+.description{
+  
+}
+
+.description__main{
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.description__title{
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.description__title > h2 {
+  display: flex;
+}
+
+.description__title--big{
+
+}
+
+.description__title--small{
+  height: fit-content;
+  background-color: var(--yellow-color);
+}
+
+.description__title--small > span{
+  background-color: var(--white-color);
+}
+
+.description__title--small > span:last-of-type{
+  padding-right: 0.25rem;
+}
+
+.description__body{
+  width: 50%;
+}
+
+.description__text{
+  padding: 0.625 0 1.5rem;
+
+}
