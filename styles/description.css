@@ -1,11 +1,13 @@
 .description{
-  
+  position: relative;
+  overflow: hidden;
 }
 
 .description__main{
   display: flex;
   justify-content: space-between;
   gap: 48px;
+  position: relative;
 }
 
 .description__title{
@@ -39,6 +41,48 @@
 }
 
 .description__text{
-  padding: 0.625 0 1.5rem;
+  padding: 0rem 0 1.5rem;
+}
 
+.description__cta .p__btn{
+  display: flex;
+}
+
+.description__cta .p__btn span{
+  margin: auto;
+}
+
+.description__cta .p__btn .icon img {
+  margin: 0 0 0 0.725rem;
+  height: 25px;
+  transition: all 0.6s ease;
+  outline: none;
+  filter: invert(1);
+}
+
+.description__cta .p__btn:hover .icon img {
+  filter: invert(0);
+}
+
+.description__d--box{
+  border: 4px solid;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+}
+
+.description__d--box-yellow{
+  border-color: var(--yellow-color);
+  top: -4.375rem;
+  left: -4rem;
+}
+
+.description__d--box-gray{
+  border-color: var(--gray-light-color);
+  width: 100%;
+  top: 50%;
+  left: -100%;
+  transform: translateY(-50%);
+  z-index: -2;
 }

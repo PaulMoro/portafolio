@@ -15,28 +15,29 @@ html{
 
 /* Generals styles */
 .p__container{
-  padding: 3rem 0 3rem;
+  padding: 4.375rem 0;
 }
 
 .p__space{
   margin: 0 auto;
+  padding: 0 4.25rem;
   max-width: 820px;
 }
 
 .p__text--title{
-  font-size: 7rem;
-  font-family: 'fjalla One', sans-serif;
+  font-size: 6.4rem;
+  font-family: 'Fjalla One', sans-serif;
   line-height: 1;
 }
 .p__text--subtitle{
   font-size: 3rem;
-  font-family: 'lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1;
 }
 .p__text--paragraph{
   font-size: 0.875rem;
-  font-family: 'ubuntu', sans-serif;
-  line-height: 1;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.2;
 }
 
 .p__text--gray{
@@ -72,7 +73,7 @@ html{
   border: none;
   padding: 0.75rem 1.125rem;
   min-width: 8.75rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   appearance: none;
   transition: all 0.6s ease;
   outline: none;
