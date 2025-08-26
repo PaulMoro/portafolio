@@ -1,0 +1,125 @@
+---
+// About section component
+---
+
+<section id="about" class="py-20 bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <!-- Content -->
+      <div class="space-y-8">
+        <div class="space-y-4">
+          <h2 class="text-4xl md:text-5xl font-bold text-white">
+            Sobre <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">mí</span>
+          </h2>
+          <p class="text-xl text-gray-400">
+            Desarrollador apasionado con 5 años de experiencia creando experiencias digitales excepcionales.
+          </p>
+        </div>
+        
+        <div class="space-y-6">
+          <p class="text-lg text-gray-300 leading-relaxed">
+            Mi nombre es Paul Montoya, tambien conocido como Paul Moro. Soy desarrollador hace 5 años y me especializo en Shopify y Ecommerces, pero no son mis únicas habilidades. He trabajado en Wordpress, React, Vue y Kajabi.
+          </p>
+          
+          <p class="text-lg text-gray-300 leading-relaxed">
+            Fui uno de los mejores estudiantes de Platzi, la plataforma de educación virtual más grande de Latam, y soy ganador de un JAM (una hackathon de un solo día) que gané con un proyecto headless.
+          </p>
+        </div>
+        
+        <!-- Skills -->
+        <div class="space-y-4">
+          <h3 class="text-2xl font-semibold text-white">Tecnologías que domino</h3>
+          <div class="flex flex-wrap gap-3">
+            {[
+              'Shopify', 'React', 'Vue.js', 'WordPress', 'Kajabi', 
+              'JavaScript', 'TypeScript', 'HTML/CSS', 'Tailwind CSS',
+              'Liquid', 'GraphQL', 'REST APIs'
+            ].map((skill) => (
+              <span class="px-4 py-2 bg-gray-800 text-gray-300 rounded-full text-sm font-medium hover:bg-gray-700 transition-colors">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+        
+        <!-- Achievements -->
+        <div class="space-y-4">
+          <h3 class="text-2xl font-semibold text-white">Logros destacados</h3>
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3">
+              <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+              <span class="text-gray-300">Uno de los mejores estudiantes de Platzi</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
+              <span class="text-gray-300">Ganador de JAM Hackathon con proyecto headless</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+              <span class="text-gray-300">5 años de experiencia en desarrollo web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Visual element -->
+      <div class="relative">
+        <div class="relative z-10 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl p-8 border border-gray-700">
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold">Desarrollo Rápido</h4>
+                <p class="text-gray-400 text-sm">Soluciones eficientes y escalables</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold">Calidad Garantizada</h4>
+                <p class="text-gray-400 text-sm">Código limpio y mantenible</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold">Pasión por el Código</h4>
+                <p class="text-gray-400 text-sm">Aprendizaje continuo y mejora</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold">Desarrollos Admin Friendly</h4>
+                <p class="text-gray-400 text-sm">Pensando en los que no desarrollan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Background decoration -->
+        <div class="absolute -top-4 -right-4 w-32 h-32 bg-blue-500/20 rounded-full blur-2xl"></div>
+        <div class="absolute -bottom-4 -left-4 w-24 h-24 bg-purple-500/20 rounded-full blur-2xl"></div>
+      </div>
+    </div>
+  </div>
+</section>

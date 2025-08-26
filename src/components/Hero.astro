@@ -1,0 +1,64 @@
+---
+// Hero section component
+---
+
+<section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <!-- Background gradient -->
+  <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black"></div>
+  
+  <!-- Animated background elements -->
+  <div class="absolute inset-0">
+    <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-2000"></div>
+  </div>
+  
+  <!-- Content -->
+  <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <!-- Greeting -->
+    <div class="mb-6 opacity-0 animate-fade-in-up" style="animation-delay: 0.2s; animation-fill-mode: forwards;">
+      <p class="text-lg text-gray-300 font-medium">¡Hola! Soy</p>
+    </div>
+    
+    <!-- Name -->
+    <div class="mb-8 opacity-0 animate-fade-in-up" style="animation-delay: 0.4s; animation-fill-mode: forwards;">
+      <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">
+        <span class="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          Paul Montoya
+        </span>
+      </h1>
+    </div>
+    
+    <!-- Title -->
+    <div class="mb-8 opacity-0 animate-fade-in-up" style="animation-delay: 0.6s; animation-fill-mode: forwards;">
+      <h2 class="text-2xl md:text-3xl text-gray-300 font-medium">
+        Desarrollador Shopify & Ecommerce
+      </h2>
+    </div>
+    
+    <!-- Description -->
+    <div class="mb-12 opacity-0 animate-fade-in-up" style="animation-delay: 0.8s; animation-fill-mode: forwards;">
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+        Especialista en desarrollo de ecommerce con 5 años de experiencia. 
+        Creando experiencias digitales excepcionales con Shopify, React, Vue y más.
+      </p>
+    </div>
+    
+    <!-- CTA Buttons -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in-up" style="animation-delay: 1s; animation-fill-mode: forwards;">
+      <a 
+        href="#projects" 
+        class="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+      >
+        Ver Proyectos
+      </a>
+      <a 
+        href="#contact" 
+        class="px-8 py-4 border-2 border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-gray-400 hover:text-white transition-all duration-300 transform hover:scale-105"
+      >
+        Contactar
+      </a>
+    </div>
+  </div>
+</section>
+
